@@ -121,13 +121,3 @@ Want to collaborate or hire me?
 📧 Email: anishkh0276@gmail.com
 🔗 LinkedIn: linkedin.com/in/anish-kushwaha-45857b227/
 
-
----
-
-If you want, I can also:
-- generate GitHub badges for contributors or forks/stars,
-- help you upload screenshots or demo GIFs,
-- or even create a `LICENSE` file.
-
-Let me know if you'd like help publishing this on your repo or tweaking it for resume/portfolio usage.
-
