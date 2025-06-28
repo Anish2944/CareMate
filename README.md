@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue.svg?style=for-the-badge)](https://care-mate-bice.vercel.app/)
 [![Tech Stack](https://img.shields.io/badge/Tech-MERN%20Stack-blueviolet?style=for-the-badge)](#tech-stack)
-[![License](https://img.shields.io/github/license/your-username/caremate?style=for-the-badge)](./LICENSE)
+[![License](https://img.shields.io/github/license/Anish2944/caremate?style=for-the-badge)](./LICENSE)
 
 CareMate is a full-fledged **Smart Healthcare Platform** designed to bridge the gap between patients and healthcare providers with **real-time video consultations**, **digital prescriptions**, **Stripe-based payments**, and even **AI-powered consultations**. Built with a modern MERN stack and scalable microservice approach.
 
