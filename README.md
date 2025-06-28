@@ -14,12 +14,6 @@ CareMate is a full-fledged **Smart Healthcare Platform** designed to bridge the 
 
 ---
 
-## 📸 Preview
-
-_Include GIFs or screenshots here if you want to visually flex your UI/UX._
-
----
-
 ## ⚙️ Features
 
 ### 🧑‍⚕️ Patient Side
@@ -65,7 +59,7 @@ _Include GIFs or screenshots here if you want to visually flex your UI/UX._
 ---
 
 ## 📁 Folder Structure (Quick Glance)
-
+```bash
 CareMate/
 │
 ├── client/ # Frontend - React
@@ -76,7 +70,7 @@ CareMate/
 │ └── controllers/, routes/, models/, utils/
 │
 └── README.md
-
+```
 
 ---
 
