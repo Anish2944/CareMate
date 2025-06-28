@@ -14,7 +14,9 @@ import {
   FileText,
   Search,
   Bot,
-  Sparkles
+  Sparkles,
+  Loader2,
+  LayoutDashboard
 } from "lucide-react";
 import {
   Sidebar,
@@ -39,6 +41,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { cn } from "@/lib/utils";
 
 const DashboardLayout = () => {
   const { user, isAuthenticated, logout, isLoading } = useAuth();
@@ -46,7 +49,23 @@ const DashboardLayout = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   if (isLoading) {
-    return <div className="flex items-center justify-center min-h-screen">Loading...</div>;
+    return (
+      <div className="flex flex-col items-center justify-center min-h-screen gap-5 bg-background relative overflow-hidden">
+        {/* Fancy blurred background glow */}
+        <div className="absolute w-72 h-72 bg-primary/20 rounded-full blur-[100px] animate-pulse"></div>
+  
+        {/* Animated icon */}
+        <LayoutDashboard className="h-12 w-12 text-primary animate-bounce-slow" />
+        
+        {/* Loading text */}
+        <p className="text-xl font-semibold text-muted-foreground animate-pulse">
+          Loading your dashboard...
+        </p>
+  
+        {/* Spinner for extra spice */}
+        <Loader2 className="h-6 w-6 text-muted-foreground animate-spin" />
+      </div>
+    );
   }
   // Redirect to login if not authenticated
   if (!isAuthenticated) {
