@@ -47,7 +47,7 @@ const AIAssistance = () => {
       setIsLoading(true);
       setError(false);
       
-      // Call the OpenAI API
+      // Call the OpenAI API (CHECK API KEY AND ENDPOINT)
       const aiResponse = await api.openai.generateResponse(currentInput);
       
       setChat(prev => [...prev, { 
