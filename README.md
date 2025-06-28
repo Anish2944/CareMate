@@ -118,8 +118,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📬 Contact
 Want to collaborate or hire me?
-📧 Email: anishkushwaha0276@gmail.com
-🔗 LinkedIn: linkedin.com/in/anishkushwaha22
+📧 Email: anishkh0276@gmail.com
+🔗 LinkedIn: linkedin.com/in/anish-kushwaha-45857b227/
 
 
 ---
