@@ -43,8 +43,8 @@ CareMate is a full-fledged **Smart Healthcare Platform** designed to bridge the 
 ## 🧱 Tech Stack
 
 ### 🌐 Frontend
-- React.js + Vite
-- TailwindCSS + DaisyUI
+- Next.js + Vite
+- TailwindCSS + ShadCN
 - Redux Toolkit (RTK Query)
 - Socket.IO for real-time updates
 
